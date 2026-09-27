@@ -1,0 +1,22 @@
+name: TacticalSailing
+options:
+  bundleIdPrefix: com.jeffbennett
+targets:
+  TacticalSailing:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: TacticalSailing
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeffbennett.tacticalsailing
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Tactical Sailing"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
